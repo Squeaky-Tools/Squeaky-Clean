@@ -1,6 +1,0 @@
-CREATE CREDENTIAL AlterEgo
-    WITH IDENTITY = 'RettigB';
-
-CREATE CREDENTIAL AlterEgo
-    WITH IDENTITY = 'RettigB', SECRET = 'Secret';
-

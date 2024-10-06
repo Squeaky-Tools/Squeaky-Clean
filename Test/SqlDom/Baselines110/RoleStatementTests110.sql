@@ -1,3 +1,0 @@
-ALTER ROLE r1 ADD MEMBER role_member;
-
-ALTER ROLE r1 DROP MEMBER role_member;

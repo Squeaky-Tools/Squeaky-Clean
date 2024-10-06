@@ -1,3 +1,0 @@
-SELECT *
-FROM t1
-OPTION (LABEL = 'TabelT1');

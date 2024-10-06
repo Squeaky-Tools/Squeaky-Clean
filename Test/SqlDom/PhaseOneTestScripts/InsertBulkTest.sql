@@ -1,1 +1,0 @@
-insert bulk t1 (

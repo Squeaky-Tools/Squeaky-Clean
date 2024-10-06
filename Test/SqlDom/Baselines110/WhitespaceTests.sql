@@ -1,6 +1,0 @@
-SELECT 1;
-
-SELECT 1 AS c1;
-
-SELECT *
-FROM t1 AS t2;
