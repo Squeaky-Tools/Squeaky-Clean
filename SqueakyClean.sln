@@ -1,0 +1,51 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.SqlServer.TransactSql.ScriptDom", "SqlScriptDom\Microsoft.SqlServer.TransactSql.ScriptDom.csproj", "{288C5ED6-C39F-406A-8C00-8060445CD5A9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AssemblyTools", "Test\AssemblyTools\AssemblyTools.csproj", "{83F0EDEC-E117-4C93-A080-B02E2B7D1DC7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UTSqlScriptDom", "Test\SqlDom\UTSqlScriptDom.csproj", "{A6F56EEF-BA27-4F12-A076-0B8DA16A4D91}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "astgen", "tools\AstGen\astgen.csproj", "{C6571609-56B4-4362-93F7-C5853ADD0A23}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScriptGenSettingsGenerator", "tools\ScriptGenSettingsGenerator\ScriptGenSettingsGenerator.csproj", "{6C86EFB7-694C-44CB-B573-8C3BFD60BCDB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TokenListGenerator", "tools\TokenListGenerator\TokenListGenerator.csproj", "{268EEF52-E861-4C84-A43C-9292EBE7B54A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{288C5ED6-C39F-406A-8C00-8060445CD5A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{288C5ED6-C39F-406A-8C00-8060445CD5A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{288C5ED6-C39F-406A-8C00-8060445CD5A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{288C5ED6-C39F-406A-8C00-8060445CD5A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83F0EDEC-E117-4C93-A080-B02E2B7D1DC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83F0EDEC-E117-4C93-A080-B02E2B7D1DC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83F0EDEC-E117-4C93-A080-B02E2B7D1DC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83F0EDEC-E117-4C93-A080-B02E2B7D1DC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6F56EEF-BA27-4F12-A076-0B8DA16A4D91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6F56EEF-BA27-4F12-A076-0B8DA16A4D91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6F56EEF-BA27-4F12-A076-0B8DA16A4D91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6F56EEF-BA27-4F12-A076-0B8DA16A4D91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6571609-56B4-4362-93F7-C5853ADD0A23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6571609-56B4-4362-93F7-C5853ADD0A23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6571609-56B4-4362-93F7-C5853ADD0A23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6571609-56B4-4362-93F7-C5853ADD0A23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C86EFB7-694C-44CB-B573-8C3BFD60BCDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C86EFB7-694C-44CB-B573-8C3BFD60BCDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C86EFB7-694C-44CB-B573-8C3BFD60BCDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C86EFB7-694C-44CB-B573-8C3BFD60BCDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{268EEF52-E861-4C84-A43C-9292EBE7B54A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{268EEF52-E861-4C84-A43C-9292EBE7B54A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{268EEF52-E861-4C84-A43C-9292EBE7B54A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{268EEF52-E861-4C84-A43C-9292EBE7B54A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3F63B3DC-0CAB-40FB-B3ED-9EC863434099}
+	EndGlobalSection
+EndGlobal
